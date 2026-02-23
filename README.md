@@ -1,11 +1,51 @@
-<div align="center">
+# Jack Nova Defense (Jack新星防御)
 
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
+A classic Missile Command style tower defense game built with React, Tailwind CSS, and Framer Motion.
 
-  <h1>Built with AI Studio</h2>
+## Features
 
-  <p>The fastest path from prompt to production with Gemini.</p>
+- **Classic Gameplay**: Protect your cities and towers from falling rockets.
+- **Resource Management**: Manage limited missile supplies across three towers.
+- **Bilingual Support**: Toggle between English and Chinese.
+- **Responsive Design**: Playable on both desktop and mobile devices.
+- **Smooth Animations**: Powered by `motion`.
 
-  <a href="https://aistudio.google.com/apps">Start building</a>
+## Getting Started
 
-</div>
+### Prerequisites
+
+- Node.js (v18+)
+- npm
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <your-repo-url>
+   ```
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
+3. Start the development server:
+   ```bash
+   npm run dev
+   ```
+
+### Building for Production
+
+To build the project for production:
+```bash
+npm run build
+```
+The output will be in the `dist` directory.
+
+## Deployment
+
+### Vercel
+
+This project is ready to be deployed to Vercel. Simply connect your GitHub repository to Vercel, and it will automatically detect the Vite configuration.
+
+## License
+
+Apache-2.0
